@@ -1,0 +1,31 @@
+{
+  "name": "@nest-boost/validator",
+  "version": "0.0.0",
+  "description": "",
+  "author": "xudongdev <me@xudong.dev>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.4.4",
+    "class-validator": "^0.12.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.25",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.4.4",
+    "class-validator": "^0.12.2",
+    "reflect-metadata": "^0.1.13"
+  }
+}
