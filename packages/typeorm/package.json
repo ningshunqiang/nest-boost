@@ -1,5 +1,4 @@
 {
-  "private": false,
   "name": "@nest-boost/typeorm",
   "version": "1.0.0",
   "description": "",
