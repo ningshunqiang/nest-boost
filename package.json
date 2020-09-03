@@ -22,7 +22,7 @@
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
-    "lerna": "^3.22.1",
+    "lerna": "^2.11.0",
     "lerna-semantic-release": "^9.1.0",
     "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
