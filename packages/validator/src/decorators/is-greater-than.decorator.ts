@@ -20,11 +20,7 @@ export function IsGreaterThan(
           const [relatedPropertyKey] = args.constraints;
           const relatedValue = args.object[relatedPropertyKey];
 
-          return (
-            typeof value === "number" &&
-            typeof relatedValue === "number" &&
-            value > relatedValue
-          );
+          return Number(value) > Number(relatedValue);
         },
         defaultMessage(args?: ValidationArguments): string {
           const [relatedPropertyKey] = args.constraints;
